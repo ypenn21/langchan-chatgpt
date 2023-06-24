@@ -26,6 +26,7 @@ if PERSIST and os.path.exists("persist"):
   index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 else:
   loader = TextLoader('data.txt')
+  print(loader.load())
   # This code can also import folders, including various filetypes like PDFs using the DirectoryLoader.
   # loader = DirectoryLoader(".", glob="*.txt")
   if PERSIST:

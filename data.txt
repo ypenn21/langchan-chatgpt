@@ -1,1 +1,34 @@
-My dog's name is Sunny.
+Triage/Qualification Questions for Anthos
+
+Customer 1:
+What are some of your bottle necks, and points of pain?
+How are you managing your life cycle of clusters today?
+How many clusters do you have? Are these clusters multiple cloud? Hybrid cloud?
+Networking restrictions? Does the cluster need to be private or air gapped? 
+Are there times where the cluster needs to account for disconnected mode? 
+Onprem environment bare metal or using a hypervisor such as vmware? 
+Day 2 ops features you like to utilize? 
+Are the care.ai accounts okay with connecting to care.ai google cloud project to be managed? *Anthos have network limitations on managing clusters.
+If projects can’t connect to care.ai google cloud project.. Are they okay with managing each individual account’s cluster via a service account (one service account per care.ai customer)? 
+If the answer to 4 and 5 is no then does anthos still provide value to customer? 
+Are the clusters multi tenant or single tenant? 
+Does customer want to establish gke clusters as standard on prem, multi cloud, and on gcp?
+Do you have any containerized workload? What favor of k8 do you currently use? 
+What level of expertise does your organization currently have in Kubernetes and container technologies?
+What is your timeline for implementing Anthos?
+What are your business goals for implementing Anthos?
+Are you looking to migrate your workloads to the cloud or do you already have a cloud presence?
+
+Customer 2:
+Networking restrictions? Need networking team involved bridge gap between on prem and cloud.
+Are there times where the cluster needs to account for disconnected mode? 
+Onprem environment bare metal? 
+Engineering team on their side? resources?
+Goal for POC? Offer to do on own hardware or on their cloud environment
+What do you define as success? Performance & pricing. KPI increase in latency and overall performance. Average transaction time for shoppers.
+Are the clusters multi tenant or single tenant? 
+
+Yanni-schedule:
+
+06/22 grad is due
+07/04 vacation
