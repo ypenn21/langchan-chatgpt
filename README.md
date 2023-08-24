@@ -25,6 +25,9 @@ Place your own data into `data.txt`.
 Your dog's name is Sunny.
 ```
 
+This is using chroma vector db:
+
+https://alphasec.io/summarize-documents-with-langchain-and-chroma/
 
 
 Here's the [YouTube Video](https://youtu.be/9AXP7tCI9PI).
